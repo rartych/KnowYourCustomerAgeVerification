@@ -11,7 +11,7 @@
 
 Sandbox API Repository to describe, develop, document, and test the KnowYourCustomerAgeVerification Service API(s) within the Sub Project [Know Your Customer](https://lf-camaraproject.atlassian.net/wiki/x/I4DGB).
 
-* API Repository [wiki page](https://lf-camaraproject.atlassian.net/wiki/x/I4DGB)
+* API Repository [wiki page](https://lf-camaraproject.atlassian.net/wiki/x/mYAzC)
 
 ## Scope
 
