@@ -48,7 +48,8 @@ The API definition(s) are based on
 
 # History of Changelog Know Your Customer Age Verification
 
-**The repository KnowYourCustomerAgeVerification was created for kyc-age-verification v0.2.0 and the previous versions of the kyc-age-verification API were stored in the old repository KnowYourCustomer.  Below is Changelog from the KnowYourCustomer repository which includes the kyc-fill-in API and the kyc-match API in addition to the kyc-age-verification API.**
+**The repository KnowYourCustomerAgeVerification was created for kyc-age-verification v0.2.0 and the previous versions of the kyc-age-verification API were stored in the [old repository KnowYourCustomer](https://github.com/camaraproject/KnowYourCustomer).  Below is Changelog from the KnowYourCustomer repository which includes the kyc-fill-in API and the kyc-match API in addition to the kyc-age-verification API.**
+
 
 **Changelog history to be copy-and-pasted from the old repo shortly.**
 
