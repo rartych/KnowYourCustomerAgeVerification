@@ -18,7 +18,8 @@ The below sections record the changes for each API version in each release as fo
 ## Release Notes
 
 This release contains the definition and documentation of
-* kyc-ageverification v0.2.0-rc.1
+* kyc-age-verification v0.2.0-rc.1
+
 
 The API definition(s) are based on
 * Commonalities v0.6.0
