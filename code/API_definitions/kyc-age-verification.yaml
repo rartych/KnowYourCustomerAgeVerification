@@ -73,14 +73,14 @@ info:
 
     (FAQs will be added in a later version of the documentation)
 
-  version: wip
+  version: v0.2.0-rc.1
   x-camara-commonalities: 0.5
   license:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0.html
 
 servers:
-  - url: "{apiRoot}/kyc-age-verification/vwip"
+  - url: "{apiRoot}/kyc-age-verification/v0.2rc1"
     variables:
       apiRoot:
         default: http://localhost:9091
