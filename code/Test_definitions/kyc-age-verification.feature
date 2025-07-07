@@ -10,10 +10,10 @@ Feature: CAMARA KYC Age Verification API, v0.2.0-rc.1 - Operation verifyAge
 
     Background: Common verifyAge setup
         Given an environment at "apiRoot"
-        And the resource "/kyc-age-verification/vwip/verify"
+        And the resource "/kyc-age-verification/v0.4rc1/verify"
         And the header "Content-Type" is set to "application/json"
         And the header "Authorization" is set to a valid access token
-        And the header "x-correlator" is set to a UUID value
+        And the header "x-correlator" complies with the schema at "#/components/schemas/XCorrelator"
         And the request body is set by default to a request body compliant with the schema
 
     # Happy path scenarios
