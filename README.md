@@ -19,7 +19,7 @@ Sandbox API Repository to describe, develop, document, and test the KnowYourCust
 * The API(s) provide(s) the API consumer with the ability to:  
   * check if the user of the line is older than a provided age, in order to provide API customer's age-restricted services, access to its age-restricted website etc..
 * Describe, develop, document, and test the API(s)
-* Started: September 2023
+* Started: September 2023 (within [KnowYourCustomer](https://github.com/camaraproject/KnowYourCustomer))
 * Incubating stage since: February 2025
 
 ## Release Information
