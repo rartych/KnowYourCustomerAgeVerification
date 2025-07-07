@@ -24,17 +24,10 @@ Sandbox API Repository to describe, develop, document, and test the KnowYourCust
 
 ## Release Information
 
-**Releases of the KnowYourCustomerAgeVerification API until Spring25 are available in [KnowYourCustomer](https://github.com/camaraproject/KnowYourCustomer).**
-
-
 * Note: Please be aware that the project will have updates to the main branch. There are no compatibility guarantees associated with code in any branch, including main, until a new release is created. For example, changes may be reverted before a release is created. For best results, use the latest available release.
-* **The latest pre-release of CAMARA KYC Age Verification is [r1.1](https://github.com/camaraproject/KnowYourCustomerAgeVerification/tree/r1.1)**. The Release Tag is [r1.1](https://github.com/camaraproject/KnowYourCustomerAgeVerification/releases/tag/r1.1).
-* API definition **with inline documentation**:
-    * [View it on ReDoc](https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/camaraproject/KnowYourCustomerAgeVerification/r1.1/code/API_definitions/kyc-age-verification.yaml&nocors)
-    * [View it on Swagger Editor](https://camaraproject.github.io/swagger-ui/?url=https://raw.githubusercontent.com/camaraprojectKnowYourCustomerAgeVerification/r1.1/code/API_definitions/kyc-age-verification.yaml)
-    * OpenAPI [YAML spec file](https://github.com/camaraproject/KnowYourCustomerAgeVerification/blob/r1.1/code/API_definitions/kyc-age-verification.yaml)
-* Other releases of this sub project are available in https://github.com/camaraproject/kyc-age-verification/releases
-* For changes see [CHANGELOG.md](https://github.com/camaraproject/KnowYourCustomerAgeVerification/blob/main/CHANGELOG.md)  
+* **NEW: Pre-release of CAMARA KYC Age Verification is [r1.1](https://github.com/camaraproject/KnowYourCustomerAgeVerification/tree/r1.1)**. The Release Tag is [r1.1](https://github.com/camaraproject/KnowYourCustomerAgeVerification/releases/tag/r1.1).
+* **Releases of the CAMARA KYC Age Verification API until Spring25 are available in [KnowYourCustomer](https://github.com/camaraproject/KnowYourCustomer).**
+* For changes see [CHANGELOG.md](https://github.com/camaraproject/KnowYourCustomerAgeVerification/blob/main/CHANGELOG.md)    
 
 ## Contributing
 
