@@ -38,16 +38,16 @@ The API definition(s) are based on
 
 
 ### Added
- * [kyc-age-verification] Add text on undocumented errors to OAS definition by @GillesInnov35 in https://github.com/camaraproject/KnowYourCustomerFill-in/pull/15
+ * [kyc-age-verification] Add text on undocumented errors to OAS definition by @GillesInnov35 in https://github.com/camaraproject/KnowYourCustomerAgeVerification/pull/10
  * [kyc-age-verification] add note to verifiedStatus description by @ToshiWakayama-KDDI in https://github.com/camaraproject/KnowYourCustomerAgeVerification/pull/13
- * [kyc-age-verification] add line 13 (API description for marketing) to API readiness checklists by @GillesInnov35 in https://github.com/camaraproject/KnowYourCustomerAgeVerification/pull/8
+ * [kyc-age-verification] add line 13 (API description for marketing) to API readiness checklists by @hdamker-bot in https://github.com/camaraproject/KnowYourCustomerAgeVerification/pull/8
 
 
 ### Changed
- * [kyc-age-verification] Update x-correlator format by @GillesInnov35 in https://github.com/camaraproject/KnowYourCustomerFill-in/pull/13
+ * [kyc-age-verification] Update x-correlator format by @GillesInnov35 in https://github.com/camaraproject/KnowYourCustomerAgeVerification/pull/12
 
 ### Removed
- * [kyc-age-verification] Remove AUTHENTICATION_REQUIRED error cod by @GillesInnov35 in https://github.com/camaraproject/KnowYourCustomerFill-in/pull/8
+ * [kyc-age-verification] Remove AUTHENTICATION_REQUIRED error cod by @GillesInnov35 in https://github.com/camaraproject/KnowYourCustomerAgeVerification/pull/7
 
 
 # History of Changelog Know Your Customer Age Verification
