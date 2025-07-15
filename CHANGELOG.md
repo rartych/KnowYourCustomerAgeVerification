@@ -17,7 +17,7 @@ The below sections record the changes for each API version in each release as fo
 
 ## Release Notes
 
-This release contains the definition and documentation of
+This pre-release contains the definition and documentation of
 * kyc-age-verification v0.2.0-rc.1
 
 
