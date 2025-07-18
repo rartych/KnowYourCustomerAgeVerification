@@ -5,8 +5,8 @@ Checklist for kyc-age-verification 0.1.0 in release r2.2
 | Nr | API release assets  | alpha | release-candidate |  initial<br>public | stable<br> public | Status | Reference information |
 |----|----------------------------------------------|:-----:|:-----------------:|:-------:|:------:|:----:|:----:|
 |  1 | API definition                               |   M   |         M         |    M    |    M   |  Y   | [link](/code/API_definitions/kyc-age-verification.yaml) |
-|  2 | Design guidelines from Commonalities applied |   O   |         M         |    M    |    M   |  Y   | [r2.3](https://github.com/camaraproject/Commonalities/releases/tag/r2.3) |
-|  3 | Guidelines from ICM applied                  |   O   |         M         |    M    |    M   |  Y   | [r2.3](https://github.com/camaraproject/IdentityAndConsentManagement/releases/tag/r2.3) |
+|  2 | Design guidelines from Commonalities applied |   O   |         M         |    M    |    M   |  Y   | [r3.2](https://github.com/camaraproject/Commonalities/releases/tag/r3.2) |
+|  3 | Guidelines from ICM applied                  |   O   |         M         |    M    |    M   |  Y   | [r3.2](https://github.com/camaraproject/IdentityAndConsentManagement/releases/tag/r3.2) |
 |  4 | API versioning convention applied            |   M   |         M         |    M    |    M   |  Y   |      |
 |  5 | API documentation                            |   M   |         M         |    M    |    M   |  Y   | Embedded documentation into API spec - [link](/code/API_definitions/kyc-age-verification.yaml) |
 |  6 | User stories                                 |   O   |         O         |    O    |    M   |  N   |      |
@@ -16,7 +16,7 @@ Checklist for kyc-age-verification 0.1.0 in release r2.2
 | 10 | API release numbering convention applied     |   M   |         M         |    M    |    M   |  Y   |      |
 | 11 | Change log updated                           |   M   |         M         |    M    |    M   |  Y   | [link](/CHANGELOG.md) |
 | 12 | Previous public release was certified        |   O   |         O         |    O    |    M   |  N   |      |
-| 13 | API description (for marketing)              |   O   |         O         |    M    |    M   |      | [wiki link](https://lf-camaraproject.atlassian.net/wiki/xxx) |
+| 13 | API description (for marketing)              |   O   |         O         |    M    |    M   |      | [wiki link](https://lf-camaraproject.atlassian.net/wiki/x/z4AzC) |
 
 To fill the checklist:
 - in the line above the table, replace the api-name, api-version and the rx.y by their actual values for the current API version and release.
