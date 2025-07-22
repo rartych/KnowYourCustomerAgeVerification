@@ -309,7 +309,8 @@ components:
 
     VerifiedStatus:
       type: "boolean"
-      description: Indicate `true` if the information provided has been compared against information based on an identification document legally accepted as an age verification document (Note), otherwise indicate `false`.  Note: Depending on the country, credit-check or other mechanism can be used instead of official identification for Age Verification. For details, please contact API Provider.
+      description:  |
+        Indicate `true` if the information provided has been compared against information based on an identification document legally accepted as an age verification document (Note), otherwise indicate `false`.  Note: Depending on the country, credit-check or other mechanism can be used instead of official identification for Age Verification. For details, please contact API Provider.
 
     IdentityMatchScore:
       type: "integer"
