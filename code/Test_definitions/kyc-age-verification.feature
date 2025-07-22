@@ -44,7 +44,6 @@ Feature: CAMARA KYC Age Verification API, v0.2.0-rc.1 - Operation verifyAge
       | $.birthdate           | /components/schemas/Birthdate         |
       | $.email               | /components/schemas/Email             |
 
-
   @verifyAge_2_verify_age_false
   Scenario Outline: Validate successful response when ageCheck is false
     Given a valid testing phone number supported by the service, identified by the access token or provided in the request body
