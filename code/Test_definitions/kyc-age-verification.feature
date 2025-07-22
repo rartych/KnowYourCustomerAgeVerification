@@ -6,7 +6,7 @@ Feature: CAMARA KYC Age Verification API, vwip - Operation verifyAge
     # Testing assets:
     # * A mobile line identified by its phone number "phoneNumber"
     #
-    # References to OAS spec schemas refer to schemas specifies in kyc-age-verification.yaml, version vwip
+    # References to OAS spec schemas refer to schemas specifies in kyc-age-verification.yaml
 
     Background: Common verifyAge setup
         Given an environment at "apiRoot"
