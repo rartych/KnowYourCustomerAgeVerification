@@ -34,7 +34,7 @@ info:
     - `identityMatchScore`: The overall score of identity information available in the Operator, information either provided in the request body comparing it to the one that the MNO holds or directly using internal MNO's information. It is optional for the Operator to return the Identity match score.
     - `contentLock`: Indicates if the subscription associated with the phone number has any kind of content lock (i.e certain web content blocked).
     - `parentalControl`: Indicates if the subscription associated with the phone number has any kind of parental control activated.
-    
+
     ## Errors
 
     - If the authentication access token is not valid, a `401 UNAUTHENTICATED` error is returned
@@ -99,13 +99,13 @@ paths:
       description: |
         Verify that the age of the subscriber associated with a phone number is equal to or greater than the specified age threshold value.
 
-        As it is possible that the person holding the contract and the end-user of the subscription may not be the same, the endpoint also admits a list of optional properties to be included in the request to improve the identification. The response may optionally include the `identityMatchScore` property with a value that indicates how certain it is that the information returned relates to the person that the API Client is requesting. To increase the reliability of the information returned, the API Provider may include in the response the `verifiedStatus` property, indicating whether the identity information in its possession has been verified against an identification document legally accepted as an age verification document (Note). Note: Depending on the country, credit-check or other mechanism can be used instead of official identification for Age Verification. For details, please contact API Provider. 
+        As it is possible that the person holding the contract and the end-user of the subscription may not be the same, the endpoint also admits a list of optional properties to be included in the request to improve the identification. The response may optionally include the `identityMatchScore` property with a value that indicates how certain it is that the information returned relates to the person that the API Client is requesting. To increase the reliability of the information returned, the API Provider may include in the response the `verifiedStatus` property, indicating whether the identity information in its possession has been verified against an identification document legally accepted as an age verification document (Note). Note: Depending on the country, credit-check or other mechanism can be used instead of official identification for Age Verification. For details, please contact API Provider.
 
         If the API Client indicates request properties `includeContentLock` or `includeParentalControl` with value `true` and the API Provider implements this functionality, then the response will also include `contentLock` and `parentalControl` properties to indicate if the subscription has any kind of content filtering enabled. On the other hand, if the request properties are not included or the API Client specifies value `false`, then the response properties will not be returned. If the API Provider doesn't implement this functionality, request properties will be ignored and response properties won't be returned in any case.
       operationId: verifyAge
       security:
         - openId:
-          - kyc-age-verification:verify
+            - kyc-age-verification:verify
       parameters:
         - $ref: '#/components/parameters/x-correlator'
       requestBody:
@@ -193,7 +193,7 @@ components:
       required: false
       schema:
         $ref: "#/components/schemas/XCorrelator"
-        
+
   schemas:
     VerifyRequestBody:
       type: "object"
@@ -301,7 +301,7 @@ components:
 
     AgeCheck:
       type: "string"
-      description: Indicate `"true"` when the age of the user is the same age or older than the age threshold (age >= age threshold), and `"false"` if not (age < age threshold). If the API Provider doesn't have enough information to perform the validation, a `not_available` can be returned. 
+      description: Indicate `"true"` when the age of the user is the same age or older than the age threshold (age >= age threshold), and `"false"` if not (age < age threshold). If the API Provider doesn't have enough information to perform the validation, a `not_available` can be returned.
       enum:
         - 'true'
         - 'false'
@@ -309,7 +309,7 @@ components:
 
     VerifiedStatus:
       type: "boolean"
-      description:  |
+      description: |
         Indicate `true` if the information provided has been compared against information based on an identification document legally accepted as an age verification document (Note), otherwise indicate `false`.  Note: Depending on the country, credit-check or other mechanism can be used instead of official identification for Age Verification. For details, please contact API Provider.
 
     IdentityMatchScore:
@@ -325,7 +325,7 @@ components:
         - 'true'
         - 'false'
         - 'not_available'
-    
+
     ParentalControl:
       type: "string"
       description: Indicate `"true"` if the subscription associated with the phone number has any kind of parental control activated and `"false"` if not. If the information is not available the value `not_available` can be returned.
@@ -467,7 +467,7 @@ components:
                 status: 404
                 code: IDENTIFIER_NOT_FOUND
                 message: The phone number provided is not associated with a customer account
-                
+
     Generic422:
       description: Unprocessable Content
       headers:
