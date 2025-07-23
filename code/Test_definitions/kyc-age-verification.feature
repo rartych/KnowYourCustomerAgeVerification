@@ -1,4 +1,4 @@
-Feature: CAMARA KYC Age Verification API, v0.2.0-rc.1 - Operation verifyAge
+Feature: CAMARA KYC Age Verification API, vwip - Operation verifyAge
   # Input to be provided by the implementation to the tester
   #
   # Implementation indications:
